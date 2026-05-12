@@ -66,7 +66,7 @@ Coding Standards
 
 ## Getting Started
 
-Prerequisites
+**Prerequisites**
 Any modern web browser (Chrome, Firefox, Safari, or Edge).
 
 Installation
@@ -81,8 +81,8 @@ Installation
 Simply open the index.html file in your preferred browser to view the current build.
 
 
-Project Structure
-
+## Project Structure
+```
 text
 LuxRent/
 ├── assets/          # Images, logos, and property media
@@ -90,7 +90,7 @@ LuxRent/
 ├── index.html       # Main landing page
 ├── properties.html  # Listing directory
 └── contact.html     # Inquiry and lead generation page
-
+```
 
 
 Future Roadmap
