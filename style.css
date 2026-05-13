@@ -1,0 +1,102 @@
+/*
+ 
+
+
+}
+
+h1 {
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: larger;
+}
+
+h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: unset;
+    font-size: medium;
+}
+
+h3 {
+    color: white ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: small;
+}
+
+
+/* Types of css selectors */
+/* Universal sselector */
+* /  {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    
+}
+/* element selector*/
+
+button {
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+body {
+    background-color: black; 
+    color: grey;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+     color: blue;
+     font-style: italic;
+ }
+
+ .container {
+    border: 1px solid red; 
+    width: 500px;
+    height: 200px;
+    background-color: azure;
+ }
+
+ .logo-text {
+    font: bold;
+    color: white;
+   
+    
+ }
+
+a {
+     text-decoration: none;
+}
+
+#portfolio {
+    border: 4px dotted green;
+}
+
+/* Attribute selector*/
+
+a[href] {
+    color: white;
+}
+
+/* Descendant selector*/
+div h4{
+    color: red;
+}
+
+/*child selector*/
+div > p {
+    color: green;
+}
